@@ -51,6 +51,6 @@ if ingredients_list:
     #st.write(my_insert_stmt)
 
 smoothiefroot_response = requests.get("htpps://my.smoothiefroot.com/api/fruit/watermelon")
-st.text(smoothiefroot_response)
+st.text(smoothiefroot_response.json())
 
 
